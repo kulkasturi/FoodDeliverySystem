@@ -1,0 +1,9 @@
+Log 1:
+Prathmesh Kulkarni 
+Watched till: [1:02:32]
+You should start at: [55:00]
+I've created a folder named pages and it contains different aspects like Cart, Home, PlaceOrder.
+Each of these contains a jsx and css file. jsx file contains structure (html and imports) and css is styling.
+Everything works so far but the last part where if I click on food items a border appears is not working in our website(Refer to timestamp: [55:00] onwards).
+Rest everything until then runs fine haven't really committed anything so probably goona be a big commit.
+Time remaining: [About 9hours]
