@@ -17,3 +17,9 @@ I've added the display items and food display components. The latest part was cr
 However, the way we have created it is not the optimal way, so the next part of the vedio talks about making it better, by creating some object. 
 You can follow along. 
 Time remaining: [About 8.5 hours]
+
+Log 3:
+Prathmesh Kulkarni
+Watched till: [1:40]
+Progress cannot be verified im getting an error in the website. Its unable to refresh. Please rewatch and verify steps!!!!
+Time remaining: [About 8 hours]
