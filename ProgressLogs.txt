@@ -30,3 +30,10 @@ Prathmesh Kulkarni
 Watched till: [2:32:40]
 Completed the Footer section and login page along with its logic and css. Its working successfully.
 Time remaining: [About 7.25 hours]
+
+
+Log 5:
+Kasturi Kulkarni
+Watched till: [3:23:26]
+The front end part is completed and now we can start with the actual interesting part! Good luck to both of us!!
+Time remaining: [6 hours 40 mins]
