@@ -37,3 +37,9 @@ Kasturi Kulkarni
 Watched till: [3:23:26]
 The front end part is completed and now we can start with the actual interesting part! Good luck to both of us!!
 Time remaining: [6 hours 40 mins]
+
+Log 6:
+Prathmesh Kulkarni
+Watched till: [3:51:47]
+connected mongodb and started server everything is running but still incomplete. foodController.js should be continued next. Also you need to install an extension on VS-Code called as Thunder client.
+Time remaining: [6 hours 10 mins]
