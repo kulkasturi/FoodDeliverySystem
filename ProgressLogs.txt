@@ -41,5 +41,11 @@ Time remaining: [6 hours 40 mins]
 Log 6:
 Prathmesh Kulkarni
 Watched till: [3:51:47]
-connected mongodb and started server everything is running but still incomplete. foodController.js should be continued next. Also you need to install an extension on VS-Code called as Thunder client.
+Setup mongodb and started server everything is running but still incomplete. foodController.js should be continued next. Also you need to install an extension on VS-Code called as Thunder client.
 Time remaining: [6 hours 10 mins]
+
+Log 7:
+Prathmesh Kulkarni
+Watched till: [4:28:24]
+Completed adding and deleting using requests on the MongoDB using get and post requests. Added schema for requests as well. Continue creating the admin panel further ahead.
+Time remaining: [5 hours 32 mins]
