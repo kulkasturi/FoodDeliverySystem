@@ -49,3 +49,9 @@ Prathmesh Kulkarni
 Watched till: [4:28:24]
 Completed adding and deleting using requests on the MongoDB using get and post requests. Added schema for requests as well. Continue creating the admin panel further ahead.
 Time remaining: [5 hours 32 mins]
+
+Log 8:
+Prathmesh Kulkarni
+Watched till: [5:08:39]
+Admin panel in process, added pages(along with jsx and css files) and styling for add items pages. Continue with the logic for functionality.
+Time remaining: [4 hours 52 mins]
