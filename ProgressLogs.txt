@@ -55,3 +55,9 @@ Prathmesh Kulkarni
 Watched till: [5:08:39]
 Admin panel in process, added pages(along with jsx and css files) and styling for add items pages. Continue with the logic for functionality.
 Time remaining: [4 hours 52 mins]
+
+Log 9:
+Kasturi Kulkarni
+Watched till: [5:51:20]
+Done with the admin panel. Starting with user authentication system.
+Time remaining: [4 hours 10 mins]
