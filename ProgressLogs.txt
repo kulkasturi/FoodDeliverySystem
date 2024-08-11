@@ -61,3 +61,18 @@ Kasturi Kulkarni
 Watched till: [5:51:20]
 Done with the admin panel. Starting with user authentication system.
 Time remaining: [4 hours 10 mins]
+
+Log 10:
+Kasturi Kulkarni
+watched till: [6:59:30]
+Done with the login and registration(sign in) logic using the frontend and also implememted other funtionalities.
+To be done:
+1. Resolve login in error.
+Have sign in with 3 accounts as   > email: Prahtmesh@gmail.com , Password: Prathmesh; > email: Aarya@gmail.com , Password: Aarya1234; > email: Vaishali@gmail.com , Password: Vaishali
+You can use them. 
+2. Add all the food items to database. Now our progam takes the food items from the db and not from assets folder. So at present, the db has only 1 item, as a result of with only one item is being displayed on the page.
+Highly recomemded: Please watch the whole vedio from 5:51:20 time stamp and check the code side by side.
+Time remaining : [3 hours 2 mins]
+
+Note: Always before you start writing your project, start the backend server using "nmp run server"
+and the frontend server using "npm run dev" by opening the internal terminal of each of them.
