@@ -3,40 +3,39 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import validator from "validator";
 
+// Create token function
+const createToken = (id) => {
+    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '1h' }); // You can set an expiration time if you want
+};
 
-// login user
+// Login user
 const loginUser = async (req, res) => {
-    const {email, password} = req.body;
+    const { email, password } = req.body;
     try {
-        const user = await user .findOne({email});
+        const user = await userModel.findOne({ email }); // Corrected: used userModel instead of user
 
-        if(!user){
-            return res.json({success: false, message: "User does not exists"})
+        if (!user) {
+            return res.json({ success: false, message: "User does not exist" });
         }
 
-        const isMatch = await bcrypt.compare(password,user.password);
+        const isMatch = await bcrypt.compare(password, user.password);
 
         if (!isMatch) {
-            return res.json({success: false, message: "Incorrect credentials"});
+            return res.json({ success: false, message: "Incorrect credentials" });
         }
 
         const token = createToken(user._id);
-        res.json({success: true, token})
+        res.json({ success: true, token });
 
     } catch (error) {
         console.log(error);
-        res.json({success: false, message: "Error"});
-        
+        res.json({ success: false, message: "Error logging in" });
     }
 };
 
-const createToken = (id) => {
-    return jwt.sign({ id }, process.env.JWT_SECRET);
-};
-
-// register user
+// Register user
 const registerUser = async (req, res) => {
-    const { name, password, email } = req.body;
+    const { name, email, password } = req.body;
     try {
         // Check if the user already exists
         const exists = await userModel.findOne({ email });
@@ -66,9 +65,10 @@ const registerUser = async (req, res) => {
         const user = await newUser.save();
         const token = createToken(user._id);
         res.json({ success: true, token });
+
     } catch (error) {
         console.log(error);
-        res.json({ success: false, message: "Error" });
+        res.json({ success: false, message: "Error registering user" });
     }
 };
 
