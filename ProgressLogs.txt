@@ -74,5 +74,11 @@ You can use them.
 Highly recomemded: Please watch the whole vedio from 5:51:20 time stamp and check the code side by side.
 Time remaining : [3 hours 2 mins]
 
-Note: Always before you start writing your project, start the backend server using "nmp run server"
+Note: Always before you start writing your project, start the backend server using "npm run server"
 and the frontend server using "npm run dev" by opening the internal terminal of each of them.
+
+Log 11:
+Prathmesh Kulkarni
+Watched till: NA 
+Fixed the errors both as mentioned in above logs. Changes in userController.js and Thunder client upload of images.
+Time remaining : [3 hours 2 mins]
