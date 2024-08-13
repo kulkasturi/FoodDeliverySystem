@@ -82,3 +82,10 @@ Prathmesh Kulkarni
 Watched till: NA 
 Fixed the errors both as mentioned in above logs. Changes in userController.js and Thunder client upload of images.
 Time remaining : [3 hours 2 mins]
+
+Log 12:
+Prathmesh Kulkarni
+Watched till: [7:20:00]
+Implementing the logic for adding to cart in the cloud. Errors yet to solve. Thunder client error.
+Fix it before moving ahead.
+Time remaining : [2 hours 40 mins]
