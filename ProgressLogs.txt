@@ -89,3 +89,9 @@ Watched till: [7:20:00]
 Implementing the logic for adding to cart in the cloud. Errors yet to solve. Thunder client error.
 Fix it before moving ahead.
 Time remaining : [2 hours 40 mins]
+
+Log 13:
+Prathmesh Kulkarni
+Watched till: [8:04:25]
+Solved bugs everything is running now. Implemented the logic for cart. Dynamic reloading done along with thunder client verified connection to cloud.
+Time remaining : [1 hours 57 mins]
