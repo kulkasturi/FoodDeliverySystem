@@ -33,7 +33,7 @@ const placeOrder = async (req,res) => {
         line_items.push({
             price_data:{
                 currency:"inr",
-                prouct_data:{
+                product_data:{
                     name:"Delivery Charges"
                 },
                 unit_amount:2*100*80
@@ -51,8 +51,8 @@ const placeOrder = async (req,res) => {
         res.json({success:true,session_url:session.url})
 
     } catch (error) {
-        console.log(error);
-        res.json({success:false,message:"Error"})  
+        console.error("Order placement error:", error);
+        res.status(500).json({ success: false, message: "An error occurred while placing the order." }); 
     }
 }
 

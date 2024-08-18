@@ -95,3 +95,10 @@ Prathmesh Kulkarni
 Watched till: [8:04:25]
 Solved bugs everything is running now. Implemented the logic for cart. Dynamic reloading done along with thunder client verified connection to cloud.
 Time remaining : [1 hours 57 mins]
+
+Log 14:
+Kasturi Kulkarni
+watched till: [8:27:40]
+Added the logic for payment through strip. However it has some error. Please refer Placeorder.jsx line 54 to 73, have added few console logs in order to check the error, and 
+have added the try catch block for effectient error handeling. Start watching from 8:04.
+Time remaining : [1 hours 30 mins]
