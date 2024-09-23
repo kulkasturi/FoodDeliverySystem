@@ -1,0 +1,32 @@
+git init
+
+touch Instructions.txt
+
+mkdir directoryname
+
+ls
+
+cd path/file.txt
+
+pwd
+
+git add .
+
+git branch -M main
+
+git commit -m "reason of commit"
+
+git remote add origin https://github.com/PrathmeshK1905/MERN-Projects.git
+
+git push -u origin main
+
+git pull origin main(branch you want to be updated)
+
+git log
+
+git status
+
+git branch
+
+git checkout branchnameorcommit-ID
+
