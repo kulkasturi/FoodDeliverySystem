@@ -102,3 +102,10 @@ watched till: [8:27:40]
 Added the logic for payment through strip. However it has some error. Please refer Placeorder.jsx line 54 to 73, have added few console logs in order to check the error, and 
 have added the try catch block for effectient error handeling. Start watching from 8:04.
 Time remaining : [1 hours 30 mins]
+
+Log 15:
+Prathmesh Kulkarni
+Watched till: [10:01:04]
+Finished coding everything. We need to check the functionality as i havent tested the code yet.
+And Everything else is pretty much done.
+Time remainig: [0 hours 0 mins]
